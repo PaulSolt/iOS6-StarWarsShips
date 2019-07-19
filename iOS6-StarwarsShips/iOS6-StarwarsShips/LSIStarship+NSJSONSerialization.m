@@ -18,15 +18,18 @@
         // Pull out the variables from the dictionary JSON keys
         NSString *shipName = dictionary[@"name"];
         NSString *shipModel = dictionary[@"model"];
-        NSNumber *shipPassengers = dictionary[@"passengers"];
-        NSNumber *shipCostInCredits = dictionary[@"cost_in_credits"];
+        NSString *shipPassengers = dictionary[@"passengers"];
+        NSString *shipCostInCredits = dictionary[@"cost_in_credits"];
         
         // Check all variables are not nil
         if (shipName != nil && shipModel && shipCostInCredits && shipPassengers) {
             // Forces only ships with all the information
             
+            
+//            ship
+            
             // Create a LSIStarship
-            self = [self initWithName:shipName model:shipModel passengers:shipPassengers.intValue costInCredits:shipCostInCredits.longValue];
+            self = [self initWithName:shipName model:shipModel passengers:shipPassengers.intValue costInCredits:shipCostInCredits.integerValue];
         } else {
             // TODO: proper error handling if there is a default value we can use
             

@@ -24,4 +24,9 @@
     }
     return self;
 }
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"%@\n\tModel: %@\n\tPassengers: %d\n\tCost: %lu", self.name, self.model, self.passengers, self.costInCredits];
+}
+
 @end

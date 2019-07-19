@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LSIStarWarsFetcher.h"
+#import "LSIStarship.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,16 @@
     
     [_starWarsFetcher fetchStarshipsWithCompletion:^(NSArray * _Nonnull starships, NSError * _Nonnull error) {
         
-        NSLog(@"Completition");
+        if (error) {
+            NSLog(@"Error: %@", error);
+            return;
+        }
+        
+        for (LSIStarship *ship in starships) {
+            NSLog(@"Ship: \n%@", ship);
+        }
+        
+        
     }];
     
 }

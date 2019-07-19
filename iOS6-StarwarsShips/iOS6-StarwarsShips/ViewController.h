@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class LSIStarWarsFetcher;
+
 @interface ViewController : UIViewController
 
+@property (nonatomic) LSIStarWarsFetcher *starWarsFetcher;
 
 @end
 

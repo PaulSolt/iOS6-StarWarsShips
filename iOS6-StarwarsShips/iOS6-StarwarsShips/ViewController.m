@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LSIStarWarsFetcher.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    _starWarsFetcher = [[LSIStarWarsFetcher alloc] init];
+    
+    // fetch
+    
+    [_starWarsFetcher fetchStarshipsWithCompletion:^(NSArray * _Nonnull starships, NSError * _Nonnull error) {
+        
+        NSLog(@"Completition");
+    }];
+    
 }
 
 

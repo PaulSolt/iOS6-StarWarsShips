@@ -15,6 +15,7 @@
 		BDA9615D22E25279003527CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA9615C22E25279003527CC /* main.m */; };
 		BDA9616522E252B9003527CC /* LSIStarship.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA9616422E252B9003527CC /* LSIStarship.m */; };
 		BDA9616822E255D1003527CC /* LSIStarship+NSJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA9616722E255D1003527CC /* LSIStarship+NSJSONSerialization.m */; };
+		BDA9616B22E258BF003527CC /* LSIStarWarsFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA9616A22E258BF003527CC /* LSIStarWarsFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		BDA9616422E252B9003527CC /* LSIStarship.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIStarship.m; sourceTree = "<group>"; };
 		BDA9616622E255D1003527CC /* LSIStarship+NSJSONSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSIStarship+NSJSONSerialization.h"; sourceTree = "<group>"; };
 		BDA9616722E255D1003527CC /* LSIStarship+NSJSONSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LSIStarship+NSJSONSerialization.m"; sourceTree = "<group>"; };
+		BDA9616922E258BF003527CC /* LSIStarWarsFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIStarWarsFetcher.h; sourceTree = "<group>"; };
+		BDA9616A22E258BF003527CC /* LSIStarWarsFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIStarWarsFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +70,13 @@
 				BDA9614D22E25278003527CC /* AppDelegate.h */,
 				BDA9614E22E25278003527CC /* AppDelegate.m */,
 				BDA9615022E25278003527CC /* ViewController.h */,
+				BDA9615122E25278003527CC /* ViewController.m */,
 				BDA9616322E252B9003527CC /* LSIStarship.h */,
 				BDA9616422E252B9003527CC /* LSIStarship.m */,
 				BDA9616622E255D1003527CC /* LSIStarship+NSJSONSerialization.h */,
 				BDA9616722E255D1003527CC /* LSIStarship+NSJSONSerialization.m */,
-				BDA9615122E25278003527CC /* ViewController.m */,
+				BDA9616922E258BF003527CC /* LSIStarWarsFetcher.h */,
+				BDA9616A22E258BF003527CC /* LSIStarWarsFetcher.m */,
 				BDA9615322E25278003527CC /* Main.storyboard */,
 				BDA9615622E25279003527CC /* Assets.xcassets */,
 				BDA9615822E25279003527CC /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA9615222E25278003527CC /* ViewController.m in Sources */,
+				BDA9616B22E258BF003527CC /* LSIStarWarsFetcher.m in Sources */,
 				BDA9615D22E25279003527CC /* main.m in Sources */,
 				BDA9616522E252B9003527CC /* LSIStarship.m in Sources */,
 				BDA9616822E255D1003527CC /* LSIStarship+NSJSONSerialization.m in Sources */,

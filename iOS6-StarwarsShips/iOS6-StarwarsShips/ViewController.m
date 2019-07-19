@@ -37,6 +37,16 @@
         
     }];
     
+    
+    NSArray *array = @[@"John", @"Paul", @"Thomas"];
+    NSMutableArray *people = [array mutableCopy];   // makes people a variable (var)
+    
+//    [array addObject:@"Johnathan"]; // doesn't work!
+    
+    [people addObject:@"Johnathan"];
+    
+    NSArray *array2 = [people copy]; // makes array2 constant (let)
+    
 }
 
 

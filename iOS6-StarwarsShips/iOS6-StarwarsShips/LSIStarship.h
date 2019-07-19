@@ -16,6 +16,13 @@ NS_ASSUME_NONNULL_BEGIN
 // assign = default for primitive (int, long, float ...)
 
 @property (nonatomic, readonly, copy) NSString *name;
+
+// Because it's readonly it will only generate the getter + instance variable
+// 1. getter
+//- (NSString *)name;
+// 2. instance variable
+// NSString *_name;
+
 @property (nonatomic, readonly, copy) NSString *model;
 @property (nonatomic, readonly) int passengers;
 @property (nonatomic, readonly) long costInCredits;

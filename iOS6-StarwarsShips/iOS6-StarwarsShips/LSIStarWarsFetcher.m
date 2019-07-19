@@ -64,6 +64,12 @@
                     // Valid ship, append it to array
                     [ships addObject:ship];
                 }
+                
+// Save to disk
+//                NSDictionary *dict = [ship toDictionary];
+//                NSData *data1 = [NSJSONSerialization dataWithJSONObject:dict options:0 error:jsonError];
+//                [data1 writeToFile:<#(nonnull NSString *)#> atomically:<#(BOOL)#>]
+                
             }
             completionHandler(ships, nil);
             

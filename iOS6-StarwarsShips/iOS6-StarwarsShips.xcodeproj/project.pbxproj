@@ -13,6 +13,7 @@
 		BDA9615722E25279003527CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA9615622E25279003527CC /* Assets.xcassets */; };
 		BDA9615A22E25279003527CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDA9615822E25279003527CC /* LaunchScreen.storyboard */; };
 		BDA9615D22E25279003527CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA9615C22E25279003527CC /* main.m */; };
+		BDA9616522E252B9003527CC /* LSIStarship.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA9616422E252B9003527CC /* LSIStarship.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BDA9615922E25279003527CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDA9615B22E25279003527CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA9615C22E25279003527CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDA9616322E252B9003527CC /* LSIStarship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIStarship.h; sourceTree = "<group>"; };
+		BDA9616422E252B9003527CC /* LSIStarship.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIStarship.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				BDA9614D22E25278003527CC /* AppDelegate.h */,
 				BDA9614E22E25278003527CC /* AppDelegate.m */,
 				BDA9615022E25278003527CC /* ViewController.h */,
+				BDA9616322E252B9003527CC /* LSIStarship.h */,
+				BDA9616422E252B9003527CC /* LSIStarship.m */,
 				BDA9615122E25278003527CC /* ViewController.m */,
 				BDA9615322E25278003527CC /* Main.storyboard */,
 				BDA9615622E25279003527CC /* Assets.xcassets */,
@@ -143,6 +148,7 @@
 			files = (
 				BDA9615222E25278003527CC /* ViewController.m in Sources */,
 				BDA9615D22E25279003527CC /* main.m in Sources */,
+				BDA9616522E252B9003527CC /* LSIStarship.m in Sources */,
 				BDA9614F22E25278003527CC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
